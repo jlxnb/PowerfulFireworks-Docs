@@ -31,7 +31,7 @@ GitHub Actions 中的软件不是正式版, 含有未知性
 如不设置，他人将会通过你的QQ发送未知信息！！！
 :::
 
-:::tips
+:::tip
 如果你的AQQbot和你的QQ运行在同一台电脑/服务器
 可以启用
 ```HTTP、正向WebSocket服务仅监听127.0.0.1```
@@ -58,5 +58,5 @@ Actions 内的工件为 Framework-Dependent 打包模式；
 
 NTQQ 的 SignServer 不可与 Android 协议混用 (如 unidbg-fetch-qsign)
 
-本wend不主动提供 SignServer, 请前往 上网自查 或 自建
+本文档不主动提供 SignServer, 请前往 上网自查 或 自建
 :::
