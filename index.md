@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "AQQBot 文档"
-  tagline: 一个基于Onebot v11的优秀Minecraft QQ机器人插件
+  tagline: 一个基于OneBot 11的优秀Minecraft QQ机器人插件
   actions:
     - theme: brand
       text: 开始
