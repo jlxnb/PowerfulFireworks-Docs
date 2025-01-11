@@ -19,13 +19,13 @@ export default defineConfig({
           {
             text: 'OneBot 11 后端安装',
             items: [
-              { text: '安装', link: '/plugin-installation' },
+              { text: '安装', link: '/onebot-installation' },
             ]
           },
           {
             text: '插件使用',
             items: [
-              { text: '安装', link: '/onebot-installation' },
+              { text: '安装', link: '/plugin-installation' },
             ]
           }
         ]
