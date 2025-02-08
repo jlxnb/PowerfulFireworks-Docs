@@ -8,11 +8,11 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /description
+      link: /zh/description
 
 features:
   - title: 轻量
-    details: 插件本体仅800KB不到
+    details: 插件本体仅1MB不到
   - title: 高度定制化
     details: 你可以自由开关插件所内置的各个功能，只需要通过编辑配置文件
   - title: 强大兼容性
