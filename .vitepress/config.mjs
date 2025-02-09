@@ -17,14 +17,14 @@ export default defineConfig({
         sidebar: [
           { text: '简介', link: '/zh/description' },
           {
-            text: 'OneBot 11 后端安装',
+            text: 'OneBot 11 后端安装并配置',
             items: [
               { text: '概述 & 提醒', link: '/zh/dependencies/remind'},
-              { text: 'QQ 本体安装', link: '/zh/dependencies/qq'},
-              { text: '有头前置 LiteLoaderQQNT 安装', link: '/zh/dependencies/liteloaderqqnt' },
-              { text: '后端 LLoneBot 安装', link: '/zh/dependencies/llonebot' },
-              { text: '后端 NapCat 安装', link: '/zh/dependencies/napcat' },
-              { text: '后端 Lagrange 安装', link: '/zh/dependencies/lagrange' }
+              { text: 'QQ 本体', link: '/zh/dependencies/qq'},
+              { text: '有头后端前置 LiteLoaderQQNT', link: '/zh/dependencies/liteloaderqqnt' },
+              { text: '后端 LLoneBot', link: '/zh/dependencies/llonebot' },
+              { text: '后端 NapCat', link: '/zh/dependencies/napcat' },
+              { text: '后端 Lagrange', link: '/zh/dependencies/lagrange' }
             ]
           },
           {

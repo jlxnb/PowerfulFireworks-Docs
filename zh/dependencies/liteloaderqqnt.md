@@ -2,7 +2,7 @@
 
 :::tip
 一切以官方为准!
-你可点击 [这里](https://liteloaderqqnt.github.io/) 进入 LLOneBot 的官方文档进行参考
+你可点击 [这里](https://liteloaderqqnt.github.io/) 进入 LiteLoaderQQNT 的官方文档进行参考
 :::
 
 :::warning

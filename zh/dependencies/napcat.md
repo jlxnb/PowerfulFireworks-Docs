@@ -1,5 +1,10 @@
 # 后端 Napcat 安装
 
+:::tip
+一切以官方为准!
+你可点击 [这里](https://napneko.pages.dev/) 进入 NapCat 的官方文档进行参考
+:::
+
 ## 有头形式安装
 
 ### LiteLoaderQQNT 前置安装方式
