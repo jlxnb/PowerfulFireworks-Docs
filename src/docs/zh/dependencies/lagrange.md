@@ -61,7 +61,7 @@ chmod +x ./Lagrange.OneBot
 
 其中比较重要的:
 - `Uin`: 修改为你的 QQ 号
-- `Implementations`: 代表 OneBot 协议实现, 这里我们只需要一个 `ForwardWebSocket` 实现, 你可以将默认配置文件 (上面的也是默认的) 中 `ReverseWebSocket` 部分删除, 并替换为正向 WebSocket 的, 修改后 `Implementations` 部分如下:
+- `Implementations`: 代表 OneBot 协议实现, 这里我们只需要一个 `ForwardWebSocket` 实现, 你可以将默认配置文件 (上面的也是默认的) 中 `ReverseWebSocket` 部分删除, 并替换为正向 WebSocket 的 (即 `ForwardWebSocket`), 修改后 `Implementations` 部分如下:
 
 ```jsonc
 {

@@ -59,7 +59,7 @@ curl -o napcat.sh https://nclatest.znin.net/NapNeko/NapCat-Installer/main/script
 需要通过网页管理面板来进行配置
 :::
 
-首先打开网页管理面板, 点击 `网络配置`, 点击 `新疆`, 选择 `Websocket 服务器`, 如图
+首先打开网页管理面板, 点击 `网络配置`, 点击 `新建`, 选择 `Websocket 服务器`, 如图
 
 ![Napcat 新建 WebSocket 服务器](/../assets/img/napcat-create-ws.png "Napcat 新建 WebSocket 服务器")
 
