@@ -35,6 +35,6 @@ import { data } from "../../../config-spec/bot/zh.data.mts";
 你可以点击配置行显示具体修改方式
 :::
 
-<ConfigViewer :data=data name="zh.yml"></ConfigViewer>
+<ConfigViewer :data=data name="bot.yml"></ConfigViewer>
 
 修改完后, 执行 `/aqqbot reload` 命令重载插件, 如果这次没有出现报错, 说明 OneBot 11 后端对接成功了, 如果出现了报错, 请检查你是否配置正确, 如果实在不行可以加入 [QQ 群 (669737143)](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=iNRMB5xcrCjHIhph1O3SLvjzvdbqWi4l&authKey=zo29OVGBNyGQ1JicDR79UmssVL8kAu2ubW8PVT%2FSqfC97UNaDVo1Dac%2F7e8M9WAP&noverify=0&group_code=669737143) 寻求帮助
