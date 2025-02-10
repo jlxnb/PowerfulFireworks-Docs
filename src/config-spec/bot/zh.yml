@@ -1,0 +1,30 @@
+# 正向Websocket配置
+ws:
+  # 主机地址
+  host:
+    default: "localhost"
+    description: "修改为你部署 OneBot 11 后端的IP地址 (如果你部署在和MC服务器同一台机子上, 不需要修改)"
+
+  # 端口
+  port:
+    default: "3001"
+    description: "修改为你记住的 OneBot 11 后端 Websocket 服务的端口号 (默认是3001)"
+
+# 在机器人后端配置的access_token
+# 若未配置请留空
+access_token:
+  default: "\"\""
+  description: "修改为你记住的 OneBot 11 后端配置的访问密钥 (也叫作 Token, access_token), 如果你没有在 OneBot 11 后端配置, 请留空 (即保持不变)"
+
+# 定时检查Websocket连接的间隔时长
+# 单位: 秒
+# ! 若配置为 <0 的数值则不启动定时检查
+check_interval:
+  default: "60"
+  description: "若无特殊需要保持不变即可"
+
+# 启用插件的群号
+groups:
+  default:
+    - "114514"
+  description: "修改为你服务器的 QQ 群号 (如果你要添加更多服务器 QQ 群, 可以加一行并采用 `- \"群号\"` 的格式)"

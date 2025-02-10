@@ -15,7 +15,7 @@ chmod +x ./Lagrange.OneBot
 
 初次打开启动, 应用程序会要求你配置文件
 
-![初次打开Lagrange.OneBot](/assets/img/first-launch-lagrange.png "初次打开Lagrange.OneBot")
+![初次打开Lagrange.OneBot](/../assets/img/first-launch-lagrange.png "初次打开Lagrange.OneBot")
 
 你可以先不管命令行窗口, 打开目录下的 `appsettings.json` 文件:
 
@@ -122,4 +122,4 @@ chmod +x ./Lagrange.OneBot
 
 修改完后, 保存配置文件, 回到窗口, 按任意键, 程序就会启动, 接着就会要求你扫码登录, 目录下也保存了以 `qr-` 为开头的二维码图片, 你可以直接打开目录下的二维码扫码登录, 若登录后没有出现报错信息, 则代表登录成功了
 
-![Lagrange.OneBot 登录](/assets/img/lagrange-login.png "Lagrange.OneBot 登录")
+![Lagrange.OneBot 登录](/../assets/img/lagrange-login.png "Lagrange.OneBot 登录")

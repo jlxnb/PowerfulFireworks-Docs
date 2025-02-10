@@ -31,7 +31,7 @@ GitHub Actions 中的软件不是正式版, 含有未知性
 如果你的AQQBot和你的QQ运行在同一台电脑/服务器
 可以启用
 ```HTTP、正向WebSocket服务仅监听127.0.0.1```
-![示例](/assets/img/only-listen-self.png "仅监听127.0.0.1")
+![示例](/../assets/img/only-listen-self.png "仅监听127.0.0.1")
 :::
 6. 如上述步骤均已完成，Wonderful~ 享受你的AQQBot欢乐时光~
 # Lagrange.OneBot

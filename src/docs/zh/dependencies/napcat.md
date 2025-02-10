@@ -33,7 +33,7 @@
 
 这两种方式安装后, 你可以在 Napcat 的设置里打开 Web 管理面板
 
-![Napcat 设置界面](/assets/img/napcat-open-web.png "Napcat 设置界面")
+![Napcat 设置界面](/../assets/img/napcat-open-web.png "Napcat 设置界面")
 
 ## 无头形式安装
 
@@ -61,13 +61,13 @@ curl -o napcat.sh https://nclatest.znin.net/NapNeko/NapCat-Installer/main/script
 
 首先打开网页管理面板, 点击 `网络配置`, 点击 `新疆`, 选择 `Websocket 服务器`, 如图
 
-![Napcat 新建 WebSocket 服务器](/assets/img/napcat-create-ws.png "Napcat 新建 WebSocket 服务器")
+![Napcat 新建 WebSocket 服务器](/../assets/img/napcat-create-ws.png "Napcat 新建 WebSocket 服务器")
 
 然后配置 WebSocket 服务器信息, 先打开 `启用` 按钮, 随便填写一个名称, `消息格式` 为 `Array`, 如果你的 Minecraft 服务器和配置 QQ 机器人的机器是同一台, 则可以将 `Host` 改为 `127.0.0.1` (默认的 `0.0.0.0` 代表开放所有地址), `Port` (端口) 可保持不变 (要记住, 后面插件配置要用)
 
 如果你不修改你的 `Host` (改为 `127.0.0.1` 或 `localhost` 等本地回环地址), 则推荐你设置一个 32位 随机字符的 `Token` 以保证安全性 (用于验证是否是合法的访问, 防止他人利用你的QQ), 也要记住这个 Token, 后面插件配置要用 (如果没填就不用记)
 
-![Napcat 配置 WebSocket 服务器](/assets/img/napcat-config-ws.png "Napcat 配置 WebSocket 服务器")
+![Napcat 配置 WebSocket 服务器](/../assets/img/napcat-config-ws.png "Napcat 配置 WebSocket 服务器")
 
 最后点击 `保存` 按钮即可
 

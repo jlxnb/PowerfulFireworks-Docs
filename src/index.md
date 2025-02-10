@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /zh/description
+      link: /docs/zh/description
 
 features:
   - title: 轻量

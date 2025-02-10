@@ -7,9 +7,15 @@ AQQBot是一个基于OneBot 11协议开发的QQ群与服务器互联的插件，
 - **群服互联**: 玩家在QQ群发送的消息会被转发到服务器上，玩家在服务器发送的消息也会被转发到QQ群上
 
 ## 特点
-- **轻量**: 插件本体仅1000KB不到
+- **轻量**: 插件本体仅1MB不到
 - **高度定制化**: 你可以自由开关插件所内置的各个功能，只需要通过编辑配置文件
 - **强大兼容性**: 插件支持基于Spigot/Paper的所有服务端及Velocity
 
 ## 协议
 本插件基于 LGPL-2.1 协议开源，请遵守该协议，最终解释权归 *alazeprt* 所有
+
+## 交流
+你可以通过以下方式与作者交流:
+- [插件交流群 (QQ群): 669737143](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=iNRMB5xcrCjHIhph1O3SLvjzvdbqWi4l&authKey=zo29OVGBNyGQ1JicDR79UmssVL8kAu2ubW8PVT%2FSqfC97UNaDVo1Dac%2F7e8M9WAP&noverify=0&group_code=669737143)
+- 作者QQ: 431876428
+- 作者邮箱: aqqbot@alazeprt.top

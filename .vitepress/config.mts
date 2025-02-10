@@ -9,28 +9,30 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/alazeprt/AQQBot' }
     ]
   },
+  srcDir: "./src",
   locales: {
     root: {
       label: '简体中文',
       lang: 'zh',
       themeConfig: {
         sidebar: [
-          { text: '简介', link: '/zh/description' },
+          { text: '简介', link: 'docs/docs/zh/description' },
           {
             text: 'OneBot 11 后端安装并配置',
             items: [
-              { text: '概述 & 提醒', link: '/zh/dependencies/remind'},
-              { text: 'QQ 本体', link: '/zh/dependencies/qq'},
-              { text: '有头后端前置 LiteLoaderQQNT', link: '/zh/dependencies/liteloaderqqnt' },
-              { text: '后端 LLoneBot', link: '/zh/dependencies/llonebot' },
-              { text: '后端 NapCat', link: '/zh/dependencies/napcat' },
-              { text: '后端 Lagrange', link: '/zh/dependencies/lagrange' }
+              { text: '概述 & 提醒', link: '/docs/zh/dependencies/remind'},
+              { text: 'QQ 本体', link: '/docs/zh/dependencies/qq'},
+              { text: '有头后端前置 LiteLoaderQQNT', link: '/docs/zh/dependencies/liteloaderqqnt' },
+              { text: '后端 LLoneBot', link: '/docs/zh/dependencies/llonebot' },
+              { text: '后端 NapCat', link: '/docs/zh/dependencies/napcat' },
+              { text: '后端 Lagrange', link: '/docs/zh/dependencies/lagrange' }
             ]
           },
           {
             text: '插件使用',
             items: [
-              { text: '安装', link: '/plugin-installation' },
+              { text: '安装', link: '/docs/zh/plugin/installation' },
+              { text: '配置', link: '/docs/zh/plugin/configuration' }
             ]
           }
         ]
@@ -45,7 +47,7 @@ export default defineConfig({
           {
             text: 'OneBot 11 后端安装',
             items: [
-              { text: '提醒', link: '/zh/dependencies/remind'}
+              { text: '提醒', link: '/docs/zh/dependencies/remind'}
             ]
           },
           {
