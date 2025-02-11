@@ -7,7 +7,7 @@ import config from '../../../.vitepress/config.mjs'
 export default {
     async load() {
         const raw = yaml.parse(
-            fs.readFileSync('./src/config-spec/config/zh.yml', 'utf-8')
+            fs.readFileSync('./src/config-spec/message/zh.yml', 'utf-8')
         )
         const md = await createMarkdownRenderer(config.srcDir, config.markdown)
 

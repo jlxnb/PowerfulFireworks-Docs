@@ -32,7 +32,8 @@ export default defineConfig({
             text: '插件使用',
             items: [
               { text: '安装', link: '/docs/zh/plugin/installation' },
-              { text: '配置', link: '/docs/zh/plugin/configuration' }
+              { text: '基本配置', link: '/docs/zh/plugin/configuration' },
+              { text: '消息配置', link: '/docs/zh/plugin/message' }
             ]
           }
         ]

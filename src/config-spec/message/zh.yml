@@ -1,0 +1,131 @@
+# 语言文件
+# 以${开头, }结尾 (如${name}) 的是占位符, 在实际中会被替换
+# 可使用 /aqqbot reload 重载
+
+# 此部分为发送到Q群的消息
+qq:
+  whitelist:
+    already_bind:
+      default: "你已经绑定过了"
+      description: "QQ内已绑定过的消息提示"
+    invalid_name:
+      default: "名称不合法! (名称只能由字母、数字、下划线组成)"
+      description: "QQ内绑定时名称不合法的提示 (名称只能由字母、数字、下划线组成)"
+    already_exist:
+      default: "该名称已被他人占用!"
+      description: "QQ内绑定时名称已存在的提示"
+    verify_code_not_exist:
+      default: "验证码不存在或已过期!"
+      description: "QQ内绑定时验证码不存在或已过期的提示"
+    bind_successful:
+      default: "绑定成功!"
+      description: "QQ内绑定成功的提示"
+    not_bind:
+      default: "你还没有绑定过!"
+      description: "QQ内解绑时未绑定的提示"
+    unbind_successful:
+      default: "解绑成功!"
+      description: "QQ内解绑成功的提示"
+    bind_by_other:
+      default: "该名称不是你绑定的! 你绑定的名称是: ${name}"
+      description: "QQ内绑定时被其他人绑定的提示, ${name}会显示本人绑定过的所有名称"
+    invalid_bind:
+      default: "该名称尚未绑定过/不是你绑定的!"
+      description: "QQ内解绑时名称不存在或不是本人的提示"
+    admin:
+      already_bind:
+        default: "他(${userId})已经绑定过了!"
+        description: "QQ内管理员绑定时已绑定过的提示"
+      not_bind:
+        default: "他(${userId})还没有绑定过!"
+        description: "QQ内管理员解绑时未绑定的提示"
+      bind_by_other:
+        default: "该名称不是他绑定的! 他绑定的名称是: ${name}"
+        description: "QQ内管理员绑定时被其他人绑定的提示, ${name}会显示他绑定过的所有名称"
+      invalid_bind:
+        default: "该名称尚未绑定过/不是他(${userId})绑定的!"
+      invalid_user_id:
+        default: "请输入正确的QQ号!"
+      user_not_in_group:
+        default: "该用户不在本群!"
+
+  information:
+    tps:
+      not_installed_dependency:
+        default: "服务器尚未安装spark插件, 无法获取TPS! 请联系服务器管理员!"
+        description: "已过时. 在未安装 spark 插件的情况下因无法获取 TPS 而发送的消息提示"
+      result:
+        default: "服务器TPS: ${tps_5_seconds}, ${tps_10_seconds}, ${tps_1_minute}, ${tps_5_minutes}, ${tps_15_minutes}"
+        description: "已过时. 通过 spark 插件获取到的服务器 TPS 信息"
+    mspt:
+      not_installed_dependency:
+        default: "服务器尚未安装spark插件, 无法获取MSPT! 请联系服务器管理员!"
+        description: "已过时. 在未安装 spark 插件的情况下因无法获取 MSPT 而发送的消息提示"
+      result:
+        default: "服务器MSPT: ${mspt_10_seconds}, ${mspt_1_minute}, ${mspt_5_minutes}"
+        description: "已过时. 通过 spark 插件获取到的服务器 MSPT 信息"
+    cpu:
+      not_installed_dependency:
+        default: "服务器尚未安装spark插件, 无法获取CPU占用情况信息! 请联系服务器管理员!"
+        description: "已过时. 在未安装 spark 插件的情况下因无法获取 CPU 占用率 而发送的消息提示"
+      result:
+        default: "服务器CPU占用率: ${cpu_10_seconds}%, ${cpu_1_minute}%, ${cpu_15_minutes}%"
+        description: "已过时. 通过 spark 插件获取到的服务器 CPU 占用率信息"
+    player_list:
+      result:
+        default: "服务器在线玩家(${count}): ${player_list}"
+        description: "获取到的服务器在线玩家列表信息"
+
+  chat_from_game:
+      default: "[服务器] ${player}: ${message}"
+      description: "从游戏内转发到QQ群的聊天信息格式"
+  executing_command:
+      default: "正在执行命令..."
+      description: "正在执行命令时的提示"
+  no_permission:
+      default: "你没有权限使用这项功能!"
+      description: "无权限在群内执行 /sudo 时的提示"
+  execution_finished:
+      default: "指令执行完成, 无返回值"
+      description: "群内 /sudo 指令执行过了指定时长后, 无返回值时的提示"
+
+# 此部分为发送到游戏/在游戏内提示的消息 (使用&代表颜色符号)
+game:
+  not_bind:
+    default: "[AQQBot] 你的账号还没有绑定QQ!\n请通过在QQ群发送${command} <游戏名称> 来绑定!" # 在GROUP_NAME模式下使用, ${command}为你设置的第一个绑定命令, 如: /bind
+    description: "进入游戏时若必须绑定, 未绑定踢出时的提示 (仅适用于使用名称绑定)"
+  not_verified:
+    default: "[AQQBot] 你的账号还没有绑定QQ!\n请通过在QQ群发送${command} ${code} 来绑定!" # 在VERIFY_CODE模式下可用, ${code}为验证码
+    description: "进入游戏时若必须绑定, 未验证时的提示 (仅适用于使用验证码绑定)"
+  kick_when_unbind:
+    default: "[AQQBot] 你的账号已被解绑!\n请重新绑定!"
+    description: "在 QQ 群解绑时被踢出的提示"
+  chat_from_qq:
+    default: "&8[&aQQ群(${groupId})&8] &b${userName}: &f${message}"
+    description: "从 QQ 群转发到游戏内的聊天信息格式"
+  reload:
+    default: "&a[AQQBot] 重载完成! 耗时 &e${time} ms"
+    description: "重载配置文件完成时的提示"
+  invalid_arguments:
+    default: "&c[AQQBot] 参数不合法或过多或过少!"
+    description: "执行 /aqqbot 及其附属指令时命令参数不合法时的提示"
+  successfully_bind:
+    default: "&b[AQQBot] 绑定成功!"
+    description: "使用游戏内命令绑定成功时的提示"
+  successfully_unbind:
+    default: "&b[AQQBot] 解绑成功!"
+    description: "使用游戏内命令解绑成功时的提示"
+  query_result:
+    default:
+      - "&a[AQQBot] 查询结果:"
+      - "&bQQ号: ${userId}"
+      - "&d游戏名: ${playerName}"
+    description: "使用游戏内命令查询QQ号/游戏名时的结果提示"
+  help:
+    default:
+      - "&a[AQQBot] 帮助页面"
+      - "&b/aqqbot forcebind <QQ号> <游戏名>   &e强制绑定(会清除之前已有的绑定)"
+      - "&b/aqqbot forceunbind <qq|player> <数据>   &e强制解除绑定(qq: QQ号, player: 游戏名, 根据数据选择其一)"
+      - "&b/aqqbot query <qq|player> <数据>   &e根据QQ号或游戏名查询对应的游戏名或QQ号"
+      - "&b/aqqbot help   &e查看此帮助页面"
+    description: "使用游戏内命令查看帮助时的提示"
