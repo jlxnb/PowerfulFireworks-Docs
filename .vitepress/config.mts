@@ -32,8 +32,11 @@ export default defineConfig({
             text: '插件使用',
             items: [
               { text: '安装', link: '/docs/zh/plugin/installation' },
+              { text: '配置前的提醒', link: '/docs/zh/plugin/remind' },
               { text: '基本配置', link: '/docs/zh/plugin/configuration' },
-              { text: '消息配置', link: '/docs/zh/plugin/message' }
+              { text: '消息配置', link: '/docs/zh/plugin/message' },
+              { text: '自定义指令', link: '/docs/zh/plugin/custom' },
+              { text: 'Q&A', link: '/docs/zh/plugin/qa' }
             ]
           }
         ]
