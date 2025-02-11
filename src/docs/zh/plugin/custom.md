@@ -81,7 +81,7 @@ cpu:
   format: true
 ```
 
-:::warning
+:::warning 警告
 新版本修改了原本的例 1 (原来是获取玩家的前缀), 取而代之引入了三个例子来代替以原先在配置文件里的 TPS, MSPT, CPU 指令
 :::
 

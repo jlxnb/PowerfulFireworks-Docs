@@ -6,11 +6,11 @@ import ConfigViewer from "../../../components/ConfigViewer.vue";
 import { data } from "../../../config-spec/bot/zh.data.mts";
 </script>
 
-:::warning
+:::warning 警告
 使用插件过程中需要保持 OneBot 11 后端始终正在运行
 :::
 
-:::tip
+:::tip 提示
 该插件支持所有 Spigot 系的服务端 (如Paper, Purpur, Leaf, Leaves等) **及 Velocity**
 :::
 

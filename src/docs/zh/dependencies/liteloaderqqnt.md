@@ -1,17 +1,17 @@
 # 有头后端前置 LiteLoaderQQNT 安装
 
-:::tip
+:::tip 提示
 一切以官方为准!
 你可点击 [这里](https://liteloaderqqnt.github.io/) 进入 LiteLoaderQQNT 的官方文档进行参考
 :::
 
-:::warning
+:::warning 警告
 不能在无桌面环境的系统中安装 LLoneBot!
 :::
 
 ## 安装 LiteLoaderQQNT
 
-:::info
+:::info 说明
 此处演示的是使用一键安装脚本安装
 :::
 

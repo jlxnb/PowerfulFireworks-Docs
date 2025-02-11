@@ -1,6 +1,6 @@
 # 基本配置
 
-:::tip
+:::tip 提示
 这里演示的是 1.1.1 版本配置文件, 如果你从旧版本升级, 可以对照这里看看有没有缺少的配置项补上去, 否则可能会出现一些问题!
 同时, 你可以通过这里的行数方便快捷地定位到你需要修改的配置项
 :::
@@ -171,7 +171,7 @@ chat:
 #      - "$url:{https://gh.llkk.cc/https://github.com/alazeprt/AQQBot-Docs/raw/refs/heads/master/fucker/database.json} $replaceTo:{}" # 脏话词库
 ```
 
-:::warning
+:::warning 警告
 如果你从旧版本迁移过来, 务必加上 `max_forward_length` 的配置项, 否则可能转发的内容会直接变成 `...`
 :::
 

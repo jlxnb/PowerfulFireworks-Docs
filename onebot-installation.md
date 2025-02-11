@@ -1,33 +1,33 @@
 # 安装后端
 
-:::tip
+:::tip 提示
 目前有许多可供安装的QQ机器人,如 LLOneBot Lagrange.OneBot NapCat 等等~
 :::
 # LLOneBot
 ::: details 快速安装 **注意在安装之前必须关闭QQ**
 1. 从 [Github Releases](https://modrinth.com/plugin/aqqbot) 或 [GitHub Actions](https://github.com/super1207/install_llob/actions) 下载LLOneBot
-:::warning
+:::warning 警告
 GitHub Actions 中的软件不是正式版, 含有未知性
 :::
 2. 运行 `llob_install.exe` 可执行文件
 3. 等软件运行一会ing...
 4. 如无其他错误代码 Bingo~ 到这里你就安装成功了~
-:::warning
+:::warning 警告
 修补失败报错 ```timed out``` ```connection refused```可能需要科学上网
 :::
 
-:::tip
+:::tip 提示
 安装程序默认会选择优良的Github镜像以供下载!
 :::
 
 5. 配置你的LLOneBot ```WebSocket``` 正向 服务端口 及 ```access token```
-:::warning
+:::warning 警告
 如果你的服务器是公网
 **必须设置Access Token!!!**
 如不设置，他人将会通过你的QQ发送未知信息！！！
 :::
 
-:::tip
+:::tip 提示
 如果你的AQQBot和你的QQ运行在同一台电脑/服务器
 可以启用
 ```HTTP、正向WebSocket服务仅监听127.0.0.1```

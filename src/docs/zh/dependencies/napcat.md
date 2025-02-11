@@ -1,6 +1,6 @@
 # 后端 Napcat 安装
 
-:::tip
+:::tip 提示
 一切以官方为准!
 你可点击 [这里](https://napneko.pages.dev/) 进入 NapCat 的官方文档进行参考
 :::
@@ -8,7 +8,7 @@
 ## 有头形式安装
 
 ### LiteLoaderQQNT 前置安装方式
-:::warning
+:::warning 警告
 不能在无桌面环境的系统中安装有头形式的 Napcat!
 
 你需要先安装 LiteLoaderQQNT!
@@ -22,7 +22,7 @@
 
 ### 一键安装方式
 
-:::warning
+:::warning 警告
 不能在无桌面环境的系统中安装有头形式的 Napcat!
 仅限于 Windows 系统!
 :::
@@ -55,7 +55,7 @@ curl -o napcat.sh https://nclatest.znin.net/NapNeko/NapCat-Installer/main/script
 
 ## 配置
 
-:::info
+:::info 说明
 需要通过网页管理面板来进行配置
 :::
 

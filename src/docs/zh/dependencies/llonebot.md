@@ -1,13 +1,13 @@
 # 后端 LLoneBot 安装
 
-:::tip
+:::tip 提示
 一切以官方为准!
 你可点击 [这里](https://llonebot.github.io/zh-CN/) 进入 LLOneBot 的官方文档进行参考
 :::
 
 ## 安装 LLoneBot (LiteLoaderQQNT 前置方式)
 
-:::warning
+:::warning 警告
 你需要先安装 LiteLoaderQQNT
 :::
 

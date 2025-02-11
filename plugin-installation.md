@@ -1,15 +1,15 @@
 # 安装插件
 
-:::warning
+:::warning 警告
 使用插件过程中需要保持 OneBot 11 后端始终正在运行
 :::
 
-:::tip
+:::tip 提示
 该插件支持所有Spigot系的服务端 (如Paper, Purpur, Leaf, Leaves等)
 :::
 
 1. 从 [MineBBS](https://www.minebbs.com/resources/aqqbot.9921/), [Modrinth](https://modrinth.com/plugin/aqqbot) 或 [GitHub Actions](https://github.com/alazeprt/AQQBot/actions) 下载插件
-:::warning
+:::warning 警告
 GitHub Actions 中的插件不是正式版, 不宜用于生产环境!
 :::
 2. 将插件移动到服务端的 `plugins` 目录下

@@ -1,6 +1,6 @@
 # 后端 Lagrange 安装
 
-:::tip
+:::tip 提示
 一切以官方为准!
 你可点击 [这里](https://lagrangedev.github.io/Lagrange.Doc/Lagrange.OneBot/) 进入 Lagrange (OneBot) 的官方文档进行参考
 :::
